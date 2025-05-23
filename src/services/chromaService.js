@@ -1,6 +1,6 @@
 const axios = require('axios');
 
-const CHROMA_API = process.env.CHROMA_API || 'http://localhost:8001';
+const CHROMA_API = process.env.CHROMA_API || 'http://host.docker.internal:8001';
 
 async function query(message) {
   try {
